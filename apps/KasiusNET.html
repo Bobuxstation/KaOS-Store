@@ -1,33 +1,40 @@
-
 <html>
-	<body><style>body {
-text-align: center;
-background-color: #232323;
-font-family: arial;
-color: white;
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border-radius: 5px;
+        }
+        .button {
+            border-radius: 5px;
+            border: black solid 1px;
+            padding: 2.5px
+        }
+        iframe {
+            border-radius: 5px;
+            border: black solid 1px;
+        }
+    </style>
+</head>
+<body><style>body {
+overflow: hidden;
+padding-left: 10px;
+padding-top: 5px;
+background-color: #323232;
 }
-button {
-    padding: 10px;
-    background: #1d1d1d;
-    width: 25%;
-    border-radius: 10px;
-    height: 50px;
-    border: white solid 1px;
-    transition: all 0.2s ease;
-    overflow-y: hidden;
-    font-size: 25px;
-color: white;
+</style>
+        <input type="text" id="id" style="width: 522.5px; border: black solid 1px; padding: 2.5px" placeholder="Enter The Website Adress Here" />&nbsp;
+        <input type="button" value="▶️" onClick="newSite()" class="button" /><input type="button" value="🔄" onClick="refresh()" class="button" /><br>
+  <iframe id="iframe" src="data:text/html;base64,PGh0bWw+Cgk8Ym9keT48c3R5bGU+Ym9keSB7CnRleHQtYWxpZ246IGNlbnRlcjsKYmFja2dyb3VuZC1jb2xvcjogIzIzMjMyMzsKZm9udC1mYW1pbHk6IGFyaWFsOwpjb2xvcjogd2hpdGU7Cn0KYnV0dG9uIHsKICAgIHBhZGRpbmc6IDEwcHg7CiAgICBiYWNrZ3JvdW5kOiAjMWQxZDFkOwogICAgd2lkdGg6IDI1JTsKICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICBoZWlnaHQ6IDUwcHg7CiAgICBib3JkZXI6IHdoaXRlIHNvbGlkIDFweDsKICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7CiAgICBvdmVyZmxvdy15OiBoaWRkZW47CiAgICBmb250LXNpemU6IDI1cHg7CmNvbG9yOiB3aGl0ZTsKfQpidXR0b246aG92ZXIgewogICAgYmFja2dyb3VuZC1jb2xvcjogIzJlMmUyZTsKICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7CmEgewpjb2xvcjogd2hpdGU6O30KfTwvc3R5bGU+CgkJPGgxPldlbGNvbWUgVG8gS2FzaXVzTkVUITwvaDE+PGJyPgo8cD5FbnRlciB0aGUgcGFnZSBsaW5rIGluIHRoZSB0ZXh0IGJveCBhYm92ZSBhbmQgcHJlc3MgdGhlIEdPIGJ1dHRvbjwvcD4KPHA+S2FzaXVzTkVUIFYyLjA8L3A+PGJyPjxoMT5NeSBLYXNpdXNORVQgU2hvcnRjdXRzPC9oMT48YnI+CjxhIGhyZWY9Imh0dHBzOi8vemVhbmZlbmRlcjExLndpeHNpdGUuY29tL2d1Z29sIj48YnV0dG9uPkd1Z29sPC9idXR0b24+PC9hPjxicj48YnI+CjxhIGhyZWY9Imh0dHBzOi8vemVhbmZlbmRlcjExLndpeHNpdGUuY29tL3lvdXN1bCI+PGJ1dHRvbj5Zb3VTdWw8L2J1dHRvbj48L2E+PGJyPjxicj4KPGEgaHJlZj0iaHR0cDovL2Fya2FyaWEuNDJ3ZWIuaW8vQ29hbC8iPjxidXR0b24+QUIgU3R1ZGlvcyAtIENvYWw8L2J1dHRvbj48L2E+PGJyPjxicj4KPGEgaHJlZj0iaHR0cHM6Ly9pc25vbW96ZWFuLndpeHNpdGUuY29tL2thc2l1c3NpdGUiPjxidXR0b24+S2FzaXVzPC9idXR0b24+PC9hPjxicj48YnI+CjxhIGhyZWY9Imh0dHBzOi8vemVhbmZlbmRlcjExLndpeHNpdGUuY29tL2d1Z29scGx1cyI+PGJ1dHRvbj5HdWdvbCs8L2J1dHRvbj48L2E+PGJyPjxicj4KCTwvYm9keT4KPC9odG1sPgo=" width="580" height='410'></iframe>
+  <script>
+function newSite() {
+document.getElementById('iframe').src = document.getElementById("id").value;
 }
-button:hover {
-    background-color: #2e2e2e;
-    transition: all 0.2s ease;</style>
-		<h1>Welcome To KasiusNET!</h1><br>
-<p>Enter the page link in the text box above and press the GO button</p>
-<p>KasiusNET V2.0</p><br><h1>My KasiusNET Shortcuts</h1><br>
-<a href="https://zeanfender11.wixsite.com/gugol"><button>Gugol</button></a><br><br>
-<a href="https://zeanfender11.wixsite.com/yousul"><button>YouSul</button></a><br><br>
-<a href="http://arkaria.42web.io/Coal/"><button>AB Studios - Coal</button></a><br><br>
-<a href="https://isnomozean.wixsite.com/kasiussite"><button>Kasius</button></a><br><br>
-<a href="https://zeanfender11.wixsite.com/gugolplus"><button>Gugol+</button></a><br><br>
-	</body>
+
+function refresh() {
+document.getElementById('iframe').src = document.getElementById('iframe').src;
+}
+</script>
+</body>
 </html>
