@@ -76,24 +76,24 @@ transition: all 0.2s ease;
     color: white;
     background: darkred;
     height: 23.5px;
-    width: 23.5px;;
+    width: 50px;;
     border: black solid 0px;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 0px;
     font-size: 18px;
-  margin: 3px;
+  margin-right: 3px;
   transition: all 0.2s ease;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  
 }
 .closebutton:hover{
     background-color: red;
     border: black solid 0px;
     transition: all 0.2s ease;
+    box-shadow: 0 2px 4px 0 red;
 }
 .closebutton:active {
   background-color: darkred;
   transition: all 0.2s ease;
+  box-shadow: none !important;
 }
 .menubutton {
     background-color: #2d2d2d00;
@@ -230,24 +230,23 @@ button {
   .minimize {
     float: right;
     color: white;
-    background: NONE;
+    background: #add8e688;
     height: 23.5px;
     width: 23.5px;;
     border: black solid 0px;
-    border-radius: 5px;
+    border-radius: 0px 0px 0px 5px;
     font-size: 14px;
-    margin: 3px;
     transition: all 0.2s ease;
     text-shadow: 2px 2px 10px #000000;
-
 }
 .minimize:hover{
-    background-color: red;
+    background-color: #add8e6ab;
     border: black solid 0px;
     transition: all 0.2s ease;
+    box-shadow: 0 2px 4px 0 #add8e6ab;
 }
 .minimize:active {
-  background-color: darkred;
+  background-color: #add8e6;
   transition: all 0.2s ease;
 }
   .menubuttonminimized {
