@@ -34,7 +34,7 @@ footer {
    cursor: move;
    border-radius: 5px 5px 0px 0px;
    overflow: auto;
-   backdrop-filter: blur(1px);
+   backdrop-filter: blur(3px);
   
 }
 .content {
